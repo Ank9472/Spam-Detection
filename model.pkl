@@ -1,0 +1,1 @@
+€•š       Œsklearn.naive_bayes”ŒBernoulliNB”“”)”}”(Œalpha”G?ð      Œ	fit_prior”ˆŒclass_prior”NŒforce_alpha”ˆŒbinarize”G        Œ_sklearn_version”Œ1.6.1”ub.
