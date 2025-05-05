@@ -5,8 +5,19 @@ from nltk.corpus import stopwords
 import nltk
 from nltk.stem.porter import PorterStemmer
 
+import os
+
+# Replace with the actual path where vectorizer.pkl is stored
+file_path = r"C:\Users\ank94\OneDrive\Desktop\ML spam\vectorizer.pkl"
+
+if os.path.exists(file_path):
+    print("File exists!")
+    tfidf = pickle.load(open(file_path, 'rb'))
+else:
+    print(f"File not found at: {file_path}")
 # Initialize Flask app
 app = Flask(__name__)
+
 
 # Download NLTK data if not present
 try:
